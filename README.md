@@ -38,6 +38,10 @@ Claude creates a `<Name> Pipeline.lanework` folder, with lanes that run from Ide
 
 Claude reads the board and tells you what's waiting on you, such as new cards in Ideas to triage. It shapes the card in Shaping into a proposal and moves it to Proposed for your review. Approve it by moving it to Approved, and the next sweep builds it.
 
+### Installing by hand
+
+To follow the latest work in progress instead of releases, or to use the skills with an agent that reads Claude-style skill folders, install them by hand. Clone the plugin's repo and link its skill folders into place, as described in [lanework-skills § Install](https://github.com/laneworkapp/lanework-skills#install). Don't install both ways, or each skill loads twice.
+
 ## Plugins
 
 | plugin | what it's for | repo |
