@@ -55,7 +55,6 @@ To follow the latest work in progress instead of releases, or to use the skills 
 | `lanework` | The basics the others build on: what a board is, how to read one, the write rules every board shares, and founding a new board. |
 | `work` | Working a board: filing and moving cards, writing card bodies and comments, sweeping and triaging, and handing build work to subagents. |
 | `watch` | A standing watch on one or more boards, responding to changes as they arrive. |
-| `dispatch` | The same watch for a long session: each change goes to a fresh subagent, so the session's own context stays small. |
 | `discovery` | A guided examination of a project's problem and domain, run in rounds on a discovery board. |
 | `plan` | Planning an idea too big for one session: chart its open decisions as ticket cards, then resolve one per session. |
 | `merge` | Resolving git conflicts on a board with no human, keeping content from both sides. |
@@ -66,7 +65,6 @@ Most skills start on their own when you mention a board. These start only when y
 | command | what it does |
 |---|---|
 | `/lanework:watch <board>` | Watches one or more boards until you say stop. |
-| `/lanework:dispatch <board>` | Watches the same way, handing each change to a fresh subagent. |
 | `/lanework:discovery <topic>` | Starts or resumes a discovery session. |
 | `/lanework:plan <idea>` | Charts a plan for an idea, or resumes its plan board. |
 | `/lanework:heal <board>` | Shows what it would repair on a board, then applies it when you say go. |
